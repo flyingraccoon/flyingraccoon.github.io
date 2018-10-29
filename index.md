@@ -5,7 +5,7 @@
 <script>
     function gettingJSON(){
         document.write("jquery loaded");
-        $.getJSON("http://api.openweathermap.org/data/2.5/weather?q=London&APPID=ee6596241130f193adf1ba90e625cc10",function(json){
+        $.getJSON("http://api.openweathermap.org/data/2.5/weather?q=London&APPID=98c882cda3baf8ad9286ac9535773510",function(json){
             document.write(JSON.stringify(json));
         });
     }
